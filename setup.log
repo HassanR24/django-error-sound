@@ -1,0 +1,9 @@
+file:///Users/digitalzone/.npm/_npx/05c7df0a6072f35b/node_modules/cli-spinners/index.js:1
+import spinners from './spinners.json' with {type: 'json'};
+                                       ^^^^
+
+SyntaxError: Unexpected token 'with'
+    at ESMLoader.moduleStrategy (node:internal/modules/esm/translators:119:18)
+    at ESMLoader.moduleProvider (node:internal/modules/esm/loader:468:14)
+
+Node.js v18.18.2

@@ -1,0 +1,95 @@
+{
+  "name": "django-error-sound",
+  "displayName": "Faaaahhh",
+  "description": "When your code screams \"Faaaahhh!\" so you don't have to! Because errors should be dramatic!",
+  "version": "0.0.1",
+  "publisher": "YourPublisherName",
+  "author": {
+    "name": "Hassan Raza",
+    "url": "https://github.com/HassanR24"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HassanR24/django-error-sound.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HassanR24/django-error-sound/issues"
+  },
+  "homepage": "https://github.com/HassanR24/django-error-sound#readme",
+  "keywords": [
+    "django",
+    "python",
+    "error",
+    "sound",
+    "notification",
+    "alert",
+    "test",
+    "pytest",
+    "unittest",
+    "debugging",
+    "audio",
+    "productivity"
+  ],
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Debuggers",
+    "Testing"
+  ],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "django-error-sound.enableSound",
+        "title": "Django Error Sound: Enable"
+      },
+      {
+        "command": "django-error-sound.disableSound",
+        "title": "Django Error Sound: Disable"
+      }
+    ],
+    "configuration": {
+      "title": "Django Error Sound",
+      "properties": {
+        "django-error-sound.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable/disable sound playback on Django compilation errors"
+        },
+        "django-error-sound.volume": {
+          "type": "number",
+          "default": 0.5,
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Volume level for the error sound (0.0 to 1.0)"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run esbuild-base -- --minify",
+    "esbuild-base": "esbuild ./src/extension.ts --bundle --outfile=dist/extension.js --external:vscode --format=cjs --platform=node",
+    "esbuild": "npm run esbuild-base -- --sourcemap",
+    "esbuild-watch": "npm run esbuild-base -- --sourcemap --watch",
+    "pretest": "npm run esbuild && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./dist/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.75.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "esbuild": "^0.17.11",
+    "eslint": "^8.29.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.4"
+  }
+}

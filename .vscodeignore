@@ -1,0 +1,10 @@
+node_modules
+.vscode-test/
+dist/test/
+out/
+src/
+.gitignore
+.yarnrc
+*.map
+*.ts
+!dist/**
