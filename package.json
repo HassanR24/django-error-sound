@@ -3,7 +3,8 @@
   "displayName": "Faaaahhh",
   "description": "When your code screams \"Faaaahhh!\" so you don't have to! Because errors should be dramatic!",
   "version": "0.0.1",
-  "publisher": "YourPublisherName",
+  "publisher": "HassanRaza",
+  "icon": "icon.png",
   "author": {
     "name": "Hassan Raza",
     "url": "https://github.com/HassanR24"

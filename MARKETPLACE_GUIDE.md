@@ -54,26 +54,43 @@ All files are ready to copy-paste or use as-is:
 Open `package.json` and replace this line:
 
 ```json
-"publisher": "YourPublisherName",
+"publisher": "HassanRaza",
 ```
 
 With your actual publisher ID:
 
 ```json
-"publisher": "hassanraza",  // Use your actual publisher ID
+"publisher": "HassanRaza",
 ```
 
 ### Step 3: Create a Personal Access Token
 
-1. Go to https://dev.azure.com/
-2. Click "User settings" (gear icon) → "Personal access tokens"
-3. Click "New Token"
-4. Settings:
+**Option A: GitHub Personal Access Token (Recommended - Easier)**
+
+1. Go to https://github.com/settings/tokens
+2. Click **"Generate new token"** → Select **"Generate new token (classic)"**
+3. Fill in the form:
+   - **Note**: `VS Code Extension Publishing`
+   - **Expiration**: Choose duration (90 days or No expiration)
+   - **Select scopes**:
+     - ✅ Check `repo` (Full control of private repositories)
+     - ✅ Check `user:email` (Access user email addresses)
+4. Scroll down and click **"Generate token"**
+5. **⚠️ CRITICAL**: Copy the token immediately (you won't see it again!)
+   - Save it somewhere safe (password manager, notes)
+
+**Option B: Azure DevOps Token (Alternative)**
+
+1. First create an organization: https://aex.dev.azure.com/signup/
+2. Then go to https://dev.azure.com/
+3. Click your profile icon → "Personal access tokens"
+4. Click "New Token"
+5. Settings:
    - **Name**: VS Code Extension Publishing
    - **Organization**: All accessible organizations
    - **Scopes**: Click "Show all scopes" → Check "Marketplace (Manage)"
-5. Click "Create"
-6. **⚠️ IMPORTANT**: Copy the token immediately (you can't see it again)
+6. Click "Create"
+7. **⚠️ IMPORTANT**: Copy the token immediately (you can't see it again)
 
 ### Step 4: Install VSCE (Publishing Tool)
 

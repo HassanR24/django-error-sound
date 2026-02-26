@@ -46,7 +46,7 @@ faah_extension/
 - ✅ Comprehensive documentation
 
 ### To Use the Extension
-1. See [QUICK_START.md](QUICK_START.md) for one-minute setup
+1. See [QUICK_START.md](../QUICK_START.md) for one-minute setup
 2. Press F5 to launch the extension in development mode
 3. Test with Python files in the dev window
 
@@ -71,7 +71,7 @@ npm run vscode:prepublish  # Production build (minified)
 3. Save the file
 4. Listen for the error sound
 
-See [TESTING_DJANGO.md](TESTING_DJANGO.md) for detailed testing procedures.
+See [TESTING_DJANGO.md](../TESTING_DJANGO.md) for detailed testing procedures.
 
 ### Debug
 1. F12 in the extension development window opens Developer Tools

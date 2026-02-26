@@ -6,9 +6,9 @@ A hilariously useful VS Code extension that yells **"FAAAAHHH!"** whenever your 
 
 Get instant audio feedback without constantly checking your browser or terminal. Your code fails, the extension screams. Simple.
 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/YourPublisherName.django-error-sound?style=flat-square)
-![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/YourPublisherName.django-error-sound?style=flat-square)
-![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/YourPublisherName.django-error-sound?style=flat-square)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/HassanRaza.django-error-sound?style=flat-square)
+![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/HassanRaza.django-error-sound?style=flat-square)
+![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/HassanRaza.django-error-sound?style=flat-square)
 
 ## ✨ Features
 
