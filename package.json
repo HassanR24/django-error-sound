@@ -39,7 +39,9 @@
     "Debuggers",
     "Testing"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
@@ -50,6 +52,10 @@
       {
         "command": "django-error-sound.disableSound",
         "title": "Django Error Sound: Disable"
+      },
+      {
+        "command": "django-error-sound.runPytest",
+        "title": "Django Error Sound: Run Pytest with Sound"
       }
     ],
     "configuration": {
