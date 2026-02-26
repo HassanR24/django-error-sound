@@ -152,8 +152,8 @@ To see which errors are being detected:
 
 ### Sound doesn't play
 
-1. Check that `assets/error.wav` exists and is valid
-2. Test the file directly: `afplay assets/error.wav` (macOS)
+1. Check that `assets/faahh.wav` exists and is valid
+2. Test the file directly: `afplay assets/faahh.wav` (macOS)
 3. Verify extension is enabled: "Django Error Sound: Enable"
 4. Check Developer Tools console for errors
 
@@ -193,7 +193,7 @@ See `DJANGO_ERROR_PATTERNS` in `src/extension.ts` for the complete list.
 ## Next Steps
 
 1. Test with your actual Django workflow
-2. Customize the sound if needed (replace `assets/error.wav`)
+2. Customize the sound if needed (replace `assets/faahh.wav`)
 3. Adjust configuration:
    ```json
    {

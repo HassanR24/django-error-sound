@@ -1,4 +1,4 @@
-# Django Error Sound - Quick Start Guide
+# Faaaahhh - Quick Start Guide
 
 Welcome! This extension plays a sound whenever Django compilation fails, tests fail, or errors are detected in VS Code.
 
@@ -23,7 +23,7 @@ node generate-test-sound.js
 - 🔊 **Automatic error sounds** when Python/Django errors are detected
 - ⚙️ **Full control** - enable/disable and adjust volume
 - 🎯 **Smart detection** - recognizes syntax errors, exceptions, and Django-specific errors
-- 💾 **Easy customization** - replace the error.wav file with any sound
+- 💾 **Easy customization** - replace the faahh.wav file with any sound
 
 ## 🎵 Getting Sound
 
@@ -33,12 +33,12 @@ To use a different sound:
 
 ```bash
 # Option 1: Use ffmpeg to convert
-ffmpeg -i your_sound.mp3 assets/error.wav
+ffmpeg -i your_sound.mp3 assets/faahh.wav
 
 # Option 2: Download a free sound
 # Visit: freesound.org, zapsplat.com, or BBC Sound Effects Library
 # Download a WAV alarm/alert sound
-# Save as: assets/error.wav
+# Save as: assets/faahh.wav
 ```
 
 ## 🧪 Testing It Works
@@ -86,7 +86,7 @@ faah_extension/
 ├── src/
 │   └── extension.ts          # Main extension code
 ├── assets/
-│   └── error.wav             # Sound file (replaceable)
+│   └── faahh.wav             # Sound file (replaceable)
 ├── dist/
 │   └── extension.js          # Compiled code
 ├── package.json              # Dependencies & config
@@ -110,7 +110,7 @@ npm run lint                # Check code style
 **Checklist:**
 
 - [ ] Extension is enabled: Run "Django Error Sound: Enable"
-- [ ] Sound file exists: `ls assets/error.wav`
+- [ ] Sound file exists: `ls assets/faahh.wav`
 - [ ] Linting is installed: `pip install pylint flake8`
 - [ ] Python extension is running in VS Code
 - [ ] Problems view shows errors (Cmd/Ctrl + Shift + M)
@@ -172,7 +172,7 @@ A: Yes! It detects any Python errors reported by VS Code.
 A: You can toggle it on/off via the command palette or settings.
 
 **Q: What if I don't like the default sound?**
-A: Replace `assets/error.wav` with any WAV file you prefer.
+A: Replace `assets/faahh.wav` with any WAV file you prefer.
 
 **Q: Will this slow down VS Code?**
 A: No, the extension uses minimal resources and debounces sounds.

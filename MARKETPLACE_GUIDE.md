@@ -1,4 +1,4 @@
-# 📦 VS Code Marketplace Publishing Guide
+# 📦 VS Code Marketplace Publishing Guide - Faaaahhh Edition
 
 This guide explains how the Marketplace displays your extension and how to publish it.
 
@@ -101,12 +101,12 @@ npm run vscode:prepublish
 vsce package
 ```
 
-This creates: `django-error-sound-0.0.1.vsix`
+This creates: `faaaahhh-0.0.1.vsix`
 
 ### Step 7: Test the Package Locally (Optional but Recommended)
 
 ```bash
-code --install-extension django-error-sound-0.0.1.vsix
+code --install-extension faaaahhh-0.0.1.vsix
 ```
 
 Test it thoroughly before publishing!
@@ -120,7 +120,7 @@ vsce publish
 Or publish the packaged file:
 
 ```bash
-vsce publish --packagePath django-error-sound-0.0.1.vsix
+vsce publish --packagePath faaaahhh-0.0.1.vsix
 ```
 
 ---
@@ -205,7 +205,7 @@ https://marketplace.visualstudio.com/items?itemName=<publisher-id>.django-error-
 
 Users can install it by:
 
-1. Searching "Django Error Sound" in VS Code Extensions
+1. Searching "Faaaahhh" in VS Code Extensions
 2. Or: `code --install-extension <publisher-id>.django-error-sound`
 
 ### Marketplace Badges
@@ -269,7 +269,7 @@ vsce publish minor  # 0.0.1 → 0.1.0
 vsce publish major  # 0.0.1 → 1.0.0
 
 # Test locally
-code --install-extension django-error-sound-0.0.1.vsix
+code --install-extension faaaahhh-0.0.1.vsix
 ```
 
 ---

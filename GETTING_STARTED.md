@@ -15,7 +15,7 @@
    ```
 
 3. **Add a sound file**:
-   - Place a WAV audio file at `assets/error.wav`
+   - Place a WAV audio file at `assets/faahh.wav`
    - See `assets/README.md` for recommendations
 
 ## Testing the Extension
